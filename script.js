@@ -9,7 +9,7 @@ form.addEventListener('submit', (e)=> {
     
 
     if(height <= 0 || isNaN(height)){
-        results.innerHTML = `Please give valid Height$`;
+        results.innerHTML = `Please give valid Height$`; 
     }
 
     if(weight < 0 || isNaN(weight)){
